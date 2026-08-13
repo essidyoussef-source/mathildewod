@@ -917,3 +917,24 @@ button, input { font: inherit; }
   .offer-more-card { min-height: 218px; border-radius: 27px; }
   .offer-more-card strong { font-size: 35px; }
 }
+
+/* Visionher — porte de consultation privée pour la présentation MathildeWod. */
+.visionher-gate { position: fixed; z-index: 200; inset: 0; display: grid; place-items: center; overflow: auto; padding: 20px; color: #2f1020; background: rgba(42,2,17,.62); backdrop-filter: blur(12px); }
+.visionher-gate-shell { width: min(100%, 610px); overflow: hidden; border-radius: 25px; background: #fffaf7; box-shadow: 0 26px 70px rgba(31,0,10,.38); animation: visionher-arrive 460ms cubic-bezier(.23,1,.32,1) both; }
+.visionher-gate-banner { display: grid; place-items: center; min-height: 91px; padding: 19px; background: linear-gradient(106deg, #d31155 0%, #ef6b4e 56%, #ffd166 100%); }
+.visionher-gate-banner img { width: min(218px, 62%); height: auto; object-fit: contain; }
+.visionher-gate-content { display: grid; gap: 14px; padding: 25px 32px 22px; }
+.visionher-gate-kicker { display: flex; align-items: center; gap: 7px; margin: 0; color: #a50d3f; font: 800 10px/1.25 "Manrope", sans-serif; letter-spacing: .16em; }
+.visionher-gate-content h1 { margin: 0; color: #700b2b; font: 400 clamp(35px, 4vw, 48px)/.9 "DM Serif Display", serif; letter-spacing: -.055em; }
+.visionher-gate-content h1 em { color: #d65b84; font-weight: 400; }
+.visionher-gate-lead { max-width: 510px; margin: 0; color: #684c57; font-size: 13px; line-height: 1.55; }
+.visionher-gate-content blockquote { margin: 0; border-left: 3px solid #b71248; padding: 9px 0 9px 14px; color: #4c1d30; font-size: 12px; line-height: 1.55; }
+.visionher-gate-check { display: inline-flex; align-items: center; gap: 10px; width: fit-content; color: #603746; font-size: 12px; line-height: 1.4; cursor: pointer; }
+.visionher-gate-check input { position: absolute; opacity: 0; pointer-events: none; }
+.visionher-gate-check span { display: grid; place-items: center; width: 20px; height: 20px; border: 1px solid #c5aab3; border-radius: 6px; color: transparent; background: #fffdfb; transition: background 140ms ease, border-color 140ms ease, color 140ms ease; }
+.visionher-gate-check input:checked + span { border-color: #a90e42; color: #fff; background: #a90e42; }
+.visionher-gate-submit { min-height: 47px; border: 0; border-radius: 12px; color: #fff8f4; font: 800 12px/1 "Manrope", sans-serif; letter-spacing: .1em; text-transform: uppercase; background: #72102d; box-shadow: 0 5px 0 #e4adbd; transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease; }
+.visionher-gate-submit:not(:disabled):hover { transform: translateY(-2px); box-shadow: 0 7px 0 #e4adbd; }.visionher-gate-submit:not(:disabled):active { transform: translateY(2px) scale(.99); box-shadow: 0 3px 0 #e4adbd; }.visionher-gate-submit:disabled { cursor: not-allowed; opacity: .4; }
+.visionher-gate-content footer { display: flex; justify-content: space-between; gap: 12px; padding-top: 3px; color: #9b7b88; font: 700 9px/1.4 "Manrope", sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+@keyframes visionher-arrive { from { opacity: 0; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@media (max-width: 640px) { .visionher-gate { align-items: center; padding: 12px; }.visionher-gate-shell { border-radius: 21px; }.visionher-gate-banner { min-height: 79px; }.visionher-gate-banner img { width: min(184px, 59%); }.visionher-gate-content { gap: 13px; padding: 22px 20px 19px; }.visionher-gate-content h1 { font-size: 39px; }.visionher-gate-lead { font-size: 12px; }.visionher-gate-content blockquote { padding-left: 12px; font-size: 11px; }.visionher-gate-content footer { flex-direction: column; gap: 4px; }.visionher-gate-submit { min-height: 45px; } }

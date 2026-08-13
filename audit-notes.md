@@ -81,3 +81,13 @@ Le verdict personnalisé a été validé avec des données de test : le prénom 
 ## Allègement des bandes Home
 
 Le bandeau de promesse est remplacé par « Vision claire. Manifestation. Actions alignées. ». Le ruban de mots-clés sous le héros est réduit et adouci. Les chiffres clés sont présentés comme trois cartes plus compactes, sur une base éditoriale libre plutôt qu’un tableau à séparateurs, avec un texte d’intention : « Manifester grand. Agir avec intention. »
+
+## Porte Visionher
+
+La porte Visionher s’affiche correctement avant l’accès au site, avec logo officiel, mentions en français, champ nom requis, email facultatif, case d’acceptation et bouton « J’accepte ». Les champs sont lisibles au format desktop comme au format mobile ; les données ne sont pas transmises par cet écran et l’acceptation est limitée à la session du navigateur.
+
+Le test du flux complet confirme que la case active le bouton « J’accepte » et que sa validation ferme la porte pour donner accès au site. La présentation est ensuite disponible normalement pour le reste de la session du navigateur.
+
+## Vérification Vercel
+
+Le projet Vercel `mathildewod` possède un déploiement de production en état `READY`, relié au commit GitHub `c21f026`. L’URL répond correctement mais applique une redirection d’authentification Vercel (SSO). Ce déploiement ne contient pas les évolutions ultérieures effectuées après ce commit, notamment les dernières itérations de la porte Visionher.

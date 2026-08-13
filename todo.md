@@ -110,3 +110,29 @@
 - [x] Identifier le dépôt GitHub associé à MathildeWod et vérifier la branche cible.
 - [x] Synchroniser la version courante du projet avec un commit descriptif.
 - [x] Confirmer le hash et l’URL de la synchronisation au dépôt.
+
+## Porte d’entrée Visionher
+
+- [x] Publier le logo Visionher fourni pour l’utiliser dans l’écran de protection.
+- [x] Créer une porte d’entrée Visionher en français, avec mentions adaptées à la maquette MathildeWod.
+- [x] Exiger l’acceptation explicite avant l’accès et mémoriser le choix dans le navigateur.
+- [x] Vérifier l’écran de protection et son comportement sur desktop et mobile.
+
+## Porte Visionher compacte
+
+- [x] Réduire nettement les dimensions et la densité de la porte Visionher.
+- [x] Supprimer les champs nom et e-mail ainsi que toute mention de collecte.
+- [x] Conserver une seule case d’acceptation et le bouton J’accepte.
+- [x] Vérifier la porte compacte sur desktop et mobile.
+
+## Vérification Vercel
+
+- [x] Identifier le projet Vercel associé et son dernier déploiement.
+- [x] Vérifier le statut, l’URL et les éventuelles erreurs du déploiement.
+- [x] Confirmer la disponibilité de la version actuelle sur Vercel.
+
+## Correctif de déploiement Vercel
+
+- [ ] Identifier pourquoi Vercel expose le code serveur au lieu de l’interface React.
+- [ ] Ajouter la configuration Vercel adaptée à la sortie statique du projet.
+- [ ] Synchroniser le correctif sur GitHub et vérifier le nouveau déploiement de production.

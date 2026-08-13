@@ -13,6 +13,7 @@ import { SiteFooter } from "./components/SiteFooter";
 import OfferFinderPage from "./pages/OfferFinderPage";
 import { BrandLoader } from "./components/BrandLoader";
 import { MotionOrchestrator } from "./components/MotionOrchestrator";
+import { VisionherGate } from "./components/VisionherGate";
 import { useEffect, useState } from "react";
 
 
@@ -49,6 +50,7 @@ function App() {
       >
         <TooltipProvider>
           <Toaster />
+          <VisionherGate />
           <BrandLoader visible={isLoading} />
           <MotionOrchestrator />
           <div className={isLoading ? "site-shell is-waiting" : "site-shell"}><Router /><SiteFooter /></div>
