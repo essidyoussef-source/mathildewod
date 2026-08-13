@@ -24,7 +24,7 @@ export function VisionherGate() {
   return (
     <div className="visionher-gate" role="dialog" aria-modal="true" aria-labelledby="visionher-gate-title">
       <div className="visionher-gate-shell">
-        <header className="visionher-gate-banner"><img src="/manus-storage/visionher-logo_68505c00.png" alt="Visionher Agency" /></header>
+        <header className="visionher-gate-banner"><img src="/visionher-logo.png" alt="Visionher Agency" /></header>
         <form className="visionher-gate-content" onSubmit={submit}>
           <p className="visionher-gate-kicker"><LockKeyhole size={14} /> ACCÈS PRIVÉ</p>
           <h1 id="visionher-gate-title">Avant de découvrir<br /><em>MathildeWod.</em></h1>

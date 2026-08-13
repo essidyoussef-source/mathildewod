@@ -133,6 +133,12 @@
 
 ## Correctif de déploiement Vercel
 
-- [ ] Identifier pourquoi Vercel expose le code serveur au lieu de l’interface React.
-- [ ] Ajouter la configuration Vercel adaptée à la sortie statique du projet.
-- [ ] Synchroniser le correctif sur GitHub et vérifier le nouveau déploiement de production.
+- [x] Identifier pourquoi Vercel expose le code serveur au lieu de l’interface React.
+- [x] Ajouter la configuration Vercel adaptée à la sortie statique du projet.
+- [x] Synchroniser le correctif sur GitHub et vérifier le nouveau déploiement de production.
+
+## Logo Visionher sur Vercel
+
+- [ ] Ajouter le logo Visionher aux assets publics inclus dans le build Vercel.
+- [ ] Mettre à jour la porte Visionher pour utiliser le chemin public de production.
+- [ ] Synchroniser et vérifier le nouveau déploiement Vercel.

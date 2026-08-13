@@ -91,3 +91,7 @@ Le test du flux complet confirme que la case active le bouton « J’accepte » 
 ## Vérification Vercel
 
 Le projet Vercel `mathildewod` possède un déploiement de production en état `READY`, relié au commit GitHub `c21f026`. L’URL répond correctement mais applique une redirection d’authentification Vercel (SSO). Ce déploiement ne contient pas les évolutions ultérieures effectuées après ce commit, notamment les dernières itérations de la porte Visionher.
+
+## Correctif de sortie Vercel
+
+La capture utilisateur montrait que Vercel servait le contenu de `server/index.ts`. Le projet inclut maintenant une configuration `vercel.json` qui lance exclusivement `pnpm run build:vercel`, publie `dist/public` et réécrit les routes SPA vers `index.html`. Le déploiement de production du commit `6fcc61d` est en état `READY` ; ses journaux confirment l’exécution de `vite build` et l’écriture de `dist/public/index.html`.
