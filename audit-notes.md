@@ -99,3 +99,7 @@ La capture utilisateur montrait que Vercel servait le contenu de `server/index.t
 ## Logo Visionher en production
 
 Le logo Visionher a été déplacé vers `client/public/visionher-logo.png` et la porte de confidentialité charge désormais ce chemin public. Le build Vite confirme que le fichier est copié dans `dist/public/visionher-logo.png`. Le déploiement Vercel du commit `026a28c` est en état `READY` et contient donc l’asset public.
+
+## Favicon et déploiement final Vercel
+
+Le monogramme MathildeWod de la maquette est décliné en favicon PNG optimisé de 512 × 512 px, référencé via `/mathildewod-favicon.png` dans le document HTML. Le build Vite confirme sa présence dans `dist/public`. La synchronisation GitHub a abouti au commit `c62a69b`, dont le déploiement Vercel de production est en état `READY`.

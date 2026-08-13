@@ -145,6 +145,13 @@
 
 ## Favicon et contrôle final Vercel
 
-- [ ] Identifier le favicon MathildeWod utilisé par la maquette.
-- [ ] Ajouter le favicon aux assets publics et le référencer dans le document HTML.
-- [ ] Synchroniser le favicon et confirmer le déploiement Vercel à jour.
+- [x] Identifier le favicon MathildeWod utilisé par la maquette.
+- [x] Ajouter le favicon aux assets publics et le référencer dans le document HTML.
+- [x] Synchroniser le favicon et confirmer le déploiement Vercel à jour.
+
+## Photos sur Vercel
+
+- [ ] Inventorier toutes les références `/manus-storage` utilisées par le site.
+- [ ] Publier les sources locales correspondantes dans les assets publics de production.
+- [ ] Remplacer les chemins internes dans les pages et styles du site.
+- [ ] Synchroniser les visuels et confirmer le rendu Vercel complet.
