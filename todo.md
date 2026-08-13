@@ -151,7 +151,20 @@
 
 ## Photos sur Vercel
 
-- [ ] Inventorier toutes les références `/manus-storage` utilisées par le site.
-- [ ] Publier les sources locales correspondantes dans les assets publics de production.
-- [ ] Remplacer les chemins internes dans les pages et styles du site.
-- [ ] Synchroniser les visuels et confirmer le rendu Vercel complet.
+- [x] Inventorier toutes les références `/manus-storage` utilisées par le site.
+- [x] Publier les sources locales correspondantes dans les assets publics de production.
+- [x] Remplacer les chemins internes dans les pages et styles du site.
+- [x] Synchroniser les visuels et confirmer le rendu Vercel complet.
+
+## Stockage des médias du projet
+
+- [ ] Activer la capacité de stockage de fichiers du projet.
+- [ ] Migrer les médias lourds vers le stockage prévu et supprimer les copies locales de production.
+- [ ] Vérifier que les images restent accessibles sur Vercel et que le checkpoint peut être sauvegardé.
+
+## Réconciliation fullstack et stockage S3
+
+- [ ] Préserver les pages MathildeWod et les scripts spécifiques après l’activation du modèle fullstack.
+- [ ] Importer les 37 médias dans le stockage de fichiers S3 du projet et conserver leurs URLs `/manus-storage`.
+- [ ] Retirer les copies médias locales du projet, y compris les sorties de build.
+- [ ] Synchroniser le projet allégé et vérifier les médias sur Vercel.

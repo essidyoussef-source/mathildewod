@@ -71,7 +71,7 @@ button, input { font: inherit; }
 .nav-cta:active, .button-main:active, .button-dark:active { transform: scale(.97); }
 
 .hero { position: relative; min-height: 678px; border-bottom: 1px solid var(--line); background: var(--paper); }
-.hero::before { content: ""; position: absolute; z-index: 0; right: -7%; top: 0; width: 57%; height: 100%; opacity: .98; background: url("/manus-storage/mathildewod-bordeaux-atlas_38621878.jpg") center / cover no-repeat; clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%); }
+.hero::before { content: ""; position: absolute; z-index: 0; right: -7%; top: 0; width: 57%; height: 100%; opacity: .98; background: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-bordeaux-atlas_38621878.jpg") center / cover no-repeat; clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%); }
 .hero-inner { position: relative; z-index: 1; min-height: 678px; display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(460px, .98fr); align-items: stretch; }
 .hero-copy { padding: 105px 5.5vw 76px 2vw; align-self: center; }
 .hero-copy .eyebrow { display: inline-flex; align-items: center; border: 1px solid rgba(143, 18, 55, .25); border-radius: 99px; padding: 10px 12px; margin-bottom: 21px; background: rgba(255,255,255,.46); }
@@ -156,9 +156,9 @@ button, input { font: inherit; }
 .step:last-child { border-right: 0; }
 .step { position: relative; isolation: isolate; overflow: hidden; }
 .step::before { content: ""; position: absolute; z-index: -1; inset: 0; opacity: .25; pointer-events: none; background-position: center; background-size: cover; background-repeat: no-repeat; }
-.step:nth-child(1)::before { background-image: url("/manus-storage/mathildewod-method-positioning_fac9b1cb.jpg"); }
-.step:nth-child(2)::before { background-image: url("/manus-storage/mathildewod-method-content_6822a863.jpg"); }
-.step:nth-child(3)::before { background-image: url("/manus-storage/mathildewod-method-revenue_354f7feb.jpg"); }
+.step:nth-child(1)::before { background-image: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-method-positioning_fac9b1cb.jpg"); }
+.step:nth-child(2)::before { background-image: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-method-content_6822a863.jpg"); }
+.step:nth-child(3)::before { background-image: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-method-revenue_354f7feb.jpg"); }
 .step-index { color: #f5a9bd; font-family: "DM Serif Display", serif; font-size: 42px; font-style: italic; letter-spacing: -.08em; }
 .step-title { max-width: 260px; margin: 49px 0 10px; color: #fff8f4; font-family: "DM Serif Display", serif; font-size: 27px; line-height: .98; letter-spacing: -.05em; }
 .step p { max-width: 270px; margin: 0; color: rgba(255,248,244,.69); font-size: 12px; line-height: 1.65; }
@@ -822,7 +822,7 @@ button, input { font: inherit; }
 .public-finder-link { display: inline-flex; align-items: center; gap: 5px; color: #b11349 !important; }
 .offer-finder-page { min-height: 100vh; background: #fff8f4; }
 .finder-hero { position: relative; overflow: hidden; padding: 112px 0 125px; color: #fff8f4; background: #700b2b; }
-.finder-hero::before { content: ""; position: absolute; inset: 0; opacity: .35; background-image: url("/manus-storage/mathildewod-bordeaux-atlas_38621878.jpg"); background-size: cover; background-position: center; mix-blend-mode: screen; }
+.finder-hero::before { content: ""; position: absolute; inset: 0; opacity: .35; background-image: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-bordeaux-atlas_38621878.jpg"); background-size: cover; background-position: center; mix-blend-mode: screen; }
 .finder-orbit { position: absolute; border: 1px solid rgba(255,248,244,.28); border-radius: 50%; }
 .finder-orbit-one { width: 480px; height: 480px; top: -278px; right: 4vw; }
 .finder-orbit-two { width: 730px; height: 730px; right: -400px; bottom: -455px; }
@@ -881,9 +881,9 @@ button, input { font: inherit; }
 /* Maison Rouge — composants d’offre repris : critères en badges, format continu et cartes de renvoi illustrées. */
 .offer-intro { position: relative; isolation: isolate; overflow: hidden; }
 .offer-intro::before { content: ""; position: absolute; z-index: -2; inset: 0; opacity: .19; background-position: center; background-size: cover; background-repeat: no-repeat; }
-.offer-pro .offer-intro::before { background-image: url("/manus-storage/mw-pro-hero-atmosphere_b2f68e6c.jpg"); }
-.offer-creator .offer-intro::before { background-image: url("/manus-storage/mw-creator-hero-atmosphere_fe0ab188.jpg"); }
-.offer-vip .offer-intro::before { background-image: url("/manus-storage/mw-vip-hero-atmosphere_70bc970d.jpg"); }
+.offer-pro .offer-intro::before { background-image: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-pro-hero-atmosphere_b2f68e6c.jpg"); }
+.offer-creator .offer-intro::before { background-image: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-creator-hero-atmosphere_fe0ab188.jpg"); }
+.offer-vip .offer-intro::before { background-image: url("https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-vip-hero-atmosphere_70bc970d.jpg"); }
 .offer-intro::after { content: ""; position: absolute; z-index: -1; inset: 0; background: color-mix(in srgb, var(--offer-panel) 77%, transparent); }
 .intro-grid { position: relative; z-index: 1; }
 .offer-statements { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 58px; border: 0; }

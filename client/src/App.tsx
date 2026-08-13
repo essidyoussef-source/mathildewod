@@ -16,8 +16,8 @@ import { MotionOrchestrator } from "./components/MotionOrchestrator";
 import { VisionherGate } from "./components/VisionherGate";
 import { useEffect, useState } from "react";
 
-
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />

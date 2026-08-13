@@ -12,7 +12,7 @@ export function SiteNav() {
   return (
     <header className={`public-nav ${scrolled ? "is-scrolled" : ""}`}>
       <div className="public-nav-inner">
-        <a className="public-brand" href="/" aria-label="MathildeWod, accueil"><img src="/manus-storage/mathildewod-mark_77d46693.png" alt="" /><strong>MATHILDEWOD</strong><i>queen</i></a>
+        <a className="public-brand" href="/" aria-label="MathildeWod, accueil"><img src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-mark_77d46693.png" alt="" /><strong>MATHILDEWOD</strong><i>queen</i></a>
         <button className="public-menu-toggle" aria-label="Ouvrir le menu" aria-expanded={menuOpen} type="button" onClick={() => setMenuOpen((value) => !value)}>{menuOpen ? <X size={19} /> : <Menu size={19} />}</button>
         <nav className={`public-links ${menuOpen ? "is-open" : ""}`} aria-label="Navigation principale">
           <a href="/" onClick={closeMenus}>Accueil</a>

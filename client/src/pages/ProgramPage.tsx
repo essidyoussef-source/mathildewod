@@ -37,9 +37,9 @@ const programs: Record<ProgramKey, {
     eyebrow: "Programme de visibilité & vente",
     title: "Quand ton contenu devient un vrai levier pour ton business.",
     lead: "Pour les femmes qui ont un business en ligne — ou déjà une idée — et qui veulent que leurs contenus Instagram ramènent des clientes sans prospecter ni se travestir pour plaire à l’algorithme.",
-    image: "/manus-storage/mathildewod-pro-scene_b775099c.jpg",
+    image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-pro-scene_b775099c.jpg",
     imageAlt: "Carnet et stratégie de contenu d’une entrepreneuse",
-    heroImage: "/manus-storage/mw-pro-hero-atmosphere_b2f68e6c.jpg",
+    heroImage: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-pro-hero-atmosphere_b2f68e6c.jpg",
     who: ["Tu as une offre ou une expertise à défendre.", "Tu veux arrêter de poster sans stratégie ni résultat.", "Tu veux devenir plus visible et étendre ton impact, tout en restant toi-même."],
     format: ["4 modules de formation concrets", "Des dizaines d’exercices pratiques", "3 lives par mois", "Des exemples de contenus analysés chaque semaine", "L’accès à une communauté de queens", "Des audios de motivation chaque semaine"],
     cta: APPLY_PRO,
@@ -53,11 +53,11 @@ const programs: Record<ProgramKey, {
       { question: "Que comprend l’accompagnement ?", answer: "Le programme réunit des modules concrets, des exercices pratiques, des lives réguliers, des exemples analysés et un accès à la communauté." },
     ],
     journey: [
-      { label: "Le cap", title: "Clarifier", copy: "Tu poses un positionnement qui rend ton expertise immédiatement lisible.", image: "/manus-storage/mw-pro-clarifier_72cbba95.jpg" },
-      { label: "Le contenu", title: "Attirer", copy: "Tu construis des contenus qui créent de l’intérêt auprès des bonnes personnes.", image: "/manus-storage/mw-pro-attirer_2a4dfbaa.jpg" },
-      { label: "L’offre", title: "Convertir", copy: "Tu relies visibilité, offres et vente sans te disperser.", image: "/manus-storage/mw-pro-convertir_d3b0586c.jpg" },
+      { label: "Le cap", title: "Clarifier", copy: "Tu poses un positionnement qui rend ton expertise immédiatement lisible.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-pro-clarifier_72cbba95.jpg" },
+      { label: "Le contenu", title: "Attirer", copy: "Tu construis des contenus qui créent de l’intérêt auprès des bonnes personnes.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-pro-attirer_2a4dfbaa.jpg" },
+      { label: "L’offre", title: "Convertir", copy: "Tu relies visibilité, offres et vente sans te disperser.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-pro-convertir_d3b0586c.jpg" },
     ],
-    humanImage: "/manus-storage/mathilde-event_71577921.png",
+    humanImage: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathilde-event_71577921.png",
     humanAlt: "Mathilde lors d’un événement avec sa communauté",
     humanLabel: "Une ambition qui se partage",
     humanTitle: "Une stratégie se construit mieux quand on sort de l’isolement.",
@@ -69,9 +69,9 @@ const programs: Record<ProgramKey, {
     eyebrow: "Programme créatrices & UGC",
     title: "Faire de ta personnalité un univers que les marques remarquent.",
     lead: "Pour les femmes qui souhaitent devenir créatrices de contenu, construire une communauté autour de leur passion et travailler avec leurs marques préférées.",
-    image: "/manus-storage/mathildewod-creator-scene_cf348838.jpg",
+    image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-creator-scene_cf348838.jpg",
     imageAlt: "Créatrice en train de filmer du contenu à son bureau",
-    heroImage: "/manus-storage/mw-creator-hero-atmosphere_fe0ab188.jpg",
+    heroImage: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-creator-hero-atmosphere_fe0ab188.jpg",
     who: ["Tu veux faire émerger une communauté autour de ce que tu aimes vraiment.", "Tu veux comprendre l’influence et l’UGC pour obtenir des collaborations rémunérées.", "Tu veux créer un complément de revenu — ou faire de la création ton métier."],
     format: ["Formation en ligne en autonomie", "Accès à une communauté de créatrices", "Exemples de contenus analysés et partagés chaque semaine"],
     cta: APPLY_CREATOR,
@@ -85,11 +85,11 @@ const programs: Record<ProgramKey, {
       { question: "Est-ce qu’on est vraiment accompagnée ?", answer: "Oui. Tu avances dans une communauté de créatrices, avec des exemples de contenus analysés et partagés chaque semaine." },
     ],
     journey: [
-      { label: "Ton univers", title: "Émerger", copy: "Tu précises ce qui rend ton regard et tes contenus reconnaissables.", image: "/manus-storage/mw-creator-emerge_992b816e.jpg" },
-      { label: "Tes formats", title: "Créer", copy: "Tu explores les formats qui font vivre ta personnalité et ta passion.", image: "/manus-storage/mw-creator-create_258afded.jpg" },
-      { label: "Tes marques", title: "Collaborer", copy: "Tu apprends à transformer ton univers en opportunités de collaborations.", image: "/manus-storage/mw-creator-collaborer_29b6a0d7.jpg" },
+      { label: "Ton univers", title: "Émerger", copy: "Tu précises ce qui rend ton regard et tes contenus reconnaissables.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-creator-emerge_992b816e.jpg" },
+      { label: "Tes formats", title: "Créer", copy: "Tu explores les formats qui font vivre ta personnalité et ta passion.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-creator-create_258afded.jpg" },
+      { label: "Tes marques", title: "Collaborer", copy: "Tu apprends à transformer ton univers en opportunités de collaborations.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-creator-collaborer_29b6a0d7.jpg" },
     ],
-    humanImage: "/manus-storage/mathilde-workshop_a87ea1b0.png",
+    humanImage: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathilde-workshop_a87ea1b0.png",
     humanAlt: "Atelier de travail et d’accompagnement en groupe",
     humanLabel: "Créer, mais jamais seule",
     humanTitle: "Ton univers prend de la force quand il trouve un vrai cadre.",
@@ -101,9 +101,9 @@ const programs: Record<ProgramKey, {
     eyebrow: "Accompagnement stratégique privé",
     title: "Quand ton business est solide, ta communication peut devenir inoubliable.",
     lead: "Pour les femmes qui ont déjà un chiffre d’affaires stable et une bonne visibilité, mais souhaitent construire une stratégie plus originale, plus différenciante et prête pour la suite.",
-    image: "/manus-storage/mathildewod-vip-scene_4dcc034b.jpg",
+    image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-vip-scene_4dcc034b.jpg",
     imageAlt: "Session de stratégie privée pour une entrepreneuse",
-    heroImage: "/manus-storage/mw-vip-hero-atmosphere_70bc970d.jpg",
+    heroImage: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-vip-hero-atmosphere_70bc970d.jpg",
     who: ["Tu veux créer des concepts originaux et une communication différenciante.", "Tu veux déléguer, construire une équipe et lancer de nouvelles offres.", "Tu veux automatiser davantage ton business et passer au niveau supérieur."],
     format: ["Un format hybride entre petit groupe et 1:1", "Un suivi individuel par Mathilde sur 3 mois, renouvelable", "Des visios en petit groupe toutes les 2 semaines", "Accès au club VIP et aux événements privés"],
     cta: APPLY_CREATOR,
@@ -117,11 +117,11 @@ const programs: Record<ProgramKey, {
       { question: "Comment rejoindre la liste d’attente ?", answer: "La liste d’attente se rejoint via le formulaire de candidature. Tu recevras les informations utiles dès la prochaine ouverture." },
     ],
     journey: [
-      { label: "La vision", title: "Différencier", copy: "Tu affirmes une stratégie de communication que personne ne peut confondre.", image: "/manus-storage/mw-vip-differencier_d9796eee.jpg" },
-      { label: "Le système", title: "Structurer", copy: "Tu fais évoluer l’organisation de ton contenu, de tes offres et de ton équipe.", image: "/manus-storage/mw-vip-structurer_7c5b1b98.jpg" },
-      { label: "La suite", title: "Amplifier", copy: "Tu prépares des lancements et des concepts capables d’accompagner ta croissance.", image: "/manus-storage/mw-vip-amplifier_4191d07b.jpg" },
+      { label: "La vision", title: "Différencier", copy: "Tu affirmes une stratégie de communication que personne ne peut confondre.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-vip-differencier_d9796eee.jpg" },
+      { label: "Le système", title: "Structurer", copy: "Tu fais évoluer l’organisation de ton contenu, de tes offres et de ton équipe.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-vip-structurer_7c5b1b98.jpg" },
+      { label: "La suite", title: "Amplifier", copy: "Tu prépares des lancements et des concepts capables d’accompagner ta croissance.", image: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mw-vip-amplifier_4191d07b.jpg" },
     ],
-    humanImage: "/manus-storage/mathilde-event_71577921.png",
+    humanImage: "https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathilde-event_71577921.png",
     humanAlt: "Mathilde lors d’un événement professionnel",
     humanLabel: "Une vision à la hauteur de ton activité",
     humanTitle: "Quand ton business est prêt, ta communication peut prendre une autre dimension.",
@@ -130,7 +130,7 @@ const programs: Record<ProgramKey, {
 };
 
 function Wordmark() {
-  return <a className="offer-brand" href="/" aria-label="Retour à la page d’accueil MathildeWod"><img src="/manus-storage/mathildewod-mark_77d46693.png" alt="" /><span>MathildeWod</span><i>queen</i></a>;
+  return <a className="offer-brand" href="/" aria-label="Retour à la page d’accueil MathildeWod"><img src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-mark_77d46693.png" alt="" /><span>MathildeWod</span><i>queen</i></a>;
 }
 
 export default function ProgramPage({ program }: { program: ProgramKey }) {
@@ -150,7 +150,7 @@ export default function ProgramPage({ program }: { program: ProgramKey }) {
 
         <section className="offer-intro"><div className="offer-shell intro-grid"><div className="offer-side-label"><span>01</span><i /> Pour qui ?</div><div><p className="offer-overline">Tu es au bon endroit si…</p><h2>Une offre pensée pour une ambition <em>précise.</em></h2><div className="offer-statements">{data.who.map((item) => <p key={item}><BadgeCheck aria-hidden="true" size={21} /><span>{item}</span></p>)}</div></div></div></section>
 
-        {program === "creator" && <section className="creator-explainer"><div className="offer-shell creator-explainer-grid"><div className="creator-explainer-copy"><p className="offer-overline">C’est quoi SUCCESS STORY Creator ?</p><h2>Le cadre pour devenir une créatrice qu’on reconnaît — et qu’on <em>choisit.</em></h2><p>Une formation pour trouver ton angle, créer des contenus plus affirmés, faire grandir une communauté et te rapprocher des collaborations qui ont du sens pour toi.</p><a className="offer-human-link" href={data.cta} target="_blank" rel="noreferrer">Rejoindre la liste d’attente <ArrowUpRight size={16} /></a></div><div className="creator-explainer-art"><figure className="creator-explainer-main"><img src="/manus-storage/creator-what-is_e3efe820.png" alt="Visuel expliquant SUCCESS STORY Creator" /></figure><figure className="creator-explainer-collage"><img src="/manus-storage/creator-collage_fe7a445b.png" alt="Collage visuel de SUCCESS STORY Creator" /></figure></div></div></section>}
+        {program === "creator" && <section className="creator-explainer"><div className="offer-shell creator-explainer-grid"><div className="creator-explainer-copy"><p className="offer-overline">C’est quoi SUCCESS STORY Creator ?</p><h2>Le cadre pour devenir une créatrice qu’on reconnaît — et qu’on <em>choisit.</em></h2><p>Une formation pour trouver ton angle, créer des contenus plus affirmés, faire grandir une communauté et te rapprocher des collaborations qui ont du sens pour toi.</p><a className="offer-human-link" href={data.cta} target="_blank" rel="noreferrer">Rejoindre la liste d’attente <ArrowUpRight size={16} /></a></div><div className="creator-explainer-art"><figure className="creator-explainer-main"><img src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/creator-what-is_e3efe820.png" alt="Visuel expliquant SUCCESS STORY Creator" /></figure><figure className="creator-explainer-collage"><img src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/creator-collage_fe7a445b.png" alt="Collage visuel de SUCCESS STORY Creator" /></figure></div></div></section>}
 
         <section className="offer-journey"><div className="offer-shell"><div className="journey-head"><div><p className="offer-overline">Dans le programme</p><h2>Trois axes pour<br />donner une suite à ton <em>élan.</em></h2></div><p>Un parcours qui crée de la cohérence entre ce que tu montres, la place que tu prends et la façon dont ton activité avance.</p></div><div className="journey-grid">{data.journey.map((item, index) => <article className="journey-card" key={item.title}><img className="journey-art" src={item.image} alt="" /><div className="journey-card-content"><span>0{index + 1} — {item.label}</span><h3>{item.title}</h3><p>{item.copy}</p></div></article>)}</div></div></section>
 

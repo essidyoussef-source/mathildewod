@@ -103,3 +103,7 @@ Le logo Visionher a été déplacé vers `client/public/visionher-logo.png` et l
 ## Favicon et déploiement final Vercel
 
 Le monogramme MathildeWod de la maquette est décliné en favicon PNG optimisé de 512 × 512 px, référencé via `/mathildewod-favicon.png` dans le document HTML. Le build Vite confirme sa présence dans `dist/public`. La synchronisation GitHub a abouti au commit `c62a69b`, dont le déploiement Vercel de production est en état `READY`.
+
+## Migration des photos et vidéos Vercel
+
+Les 37 références restantes sous `/manus-storage/` ont été mappées à leurs sources locales, optimisées lorsque nécessaire et copiées dans `client/public/manus-storage` en préservant exactement leurs noms d’URL. Cela laisse les composants et feuilles de style inchangés tout en rendant les visuels accessibles depuis la sortie statique Vercel. Le build Vite confirme la présence des photos, visuels générés et deux vidéos dans `dist/public/manus-storage`. Le commit `98feb5d` est déployé sur Vercel avec l’état `READY`.

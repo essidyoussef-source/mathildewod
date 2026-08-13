@@ -10,7 +10,7 @@ const CAHIER_URL = "https://www.mathildewod.fr/opt-in-ef5e0895-1297-49c9-ac25-06
 function Brand() {
   return (
     <a className="brand" href="#accueil" aria-label="MathildeWod, retour en haut de page">
-      <img className="brand-mark" src="/manus-storage/mathildewod-mark_77d46693.png" alt="" />
+      <img className="brand-mark" src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-mark_77d46693.png" alt="" />
       <span className="brand-word">MathildeWod</span>
       <span className="brand-queen">queen</span>
     </a>
@@ -18,7 +18,7 @@ function Brand() {
 }
 
 function SectionRail({ number, light = false }: { number: string; light?: boolean }) {
-  return <aside className={`section-rail${light ? " light" : ""}`} aria-hidden="true"><img src="/manus-storage/mathildewod-mark_77d46693.png" alt="" /><span>{number}</span><i /></aside>;
+  return <aside className={`section-rail${light ? " light" : ""}`} aria-hidden="true"><img src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-mark_77d46693.png" alt="" /><span>{number}</span><i /></aside>;
 }
 
 function Result({ handle, field, multiple, before, after, beforeCount, afterCount }: {
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="hero-visual">
               <div className="hero-index"><b>Chapitre 01</b>Make your mark</div>
-              <div className="portrait-shell"><img src="/manus-storage/mathilde-hero_66e375c3.png" alt="Mathilde, fondatrice de MathildeWod" /></div>
+              <div className="portrait-shell"><img src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathilde-hero_66e375c3.png" alt="Mathilde, fondatrice de MathildeWod" /></div>
               <div className="portrait-tag"><strong>14,7k</strong><span>communauté</span></div>
             </div>
           </div>
@@ -82,17 +82,17 @@ export default function Home() {
             </div>
             <div className="program-grid">
               <article className="program-card large">
-                <img className="program-photo" src="/manus-storage/mathildewod-pro-scene_b775099c.jpg" alt="Carnet et matériel de travail d'une entrepreneuse" />
+                <img className="program-photo" src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-pro-scene_b775099c.jpg" alt="Carnet et matériel de travail d'une entrepreneuse" />
                 <div className="program-inner"><span className="program-type">Entrepreneuses</span><h3 className="program-title display">Success<br /><em>Story</em> Pro</h3><p className="program-copy">Tu as une expertise à défendre. On aligne ton positionnement, ton contenu et tes offres pour attirer une audience qui devient cliente.</p><a className="program-link" href="/success-story-pro">Voir la page dédiée <span>→</span></a></div>
               </article>
               <div className="program-side">
                 <article className="program-card">
-                  <img className="program-photo" src="/manus-storage/mathildewod-creator-scene_cf348838.jpg" alt="Créatrice en train de produire du contenu" />
+                  <img className="program-photo" src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-creator-scene_cf348838.jpg" alt="Créatrice en train de produire du contenu" />
                   <span className="program-badge">Le plus demandé</span>
                   <div className="program-inner"><span className="program-type">Créatrices de contenu</span><h3 className="program-title display">Success<br /><em>Story</em> Creator</h3><p className="program-copy">Pour construire une communauté qui reconnaît ta personnalité — et intéresser les marques qui te ressemblent.</p><a className="program-link" href="/success-story-creator">Voir la page dédiée <span>→</span></a></div>
                 </article>
                 <article className="program-card vip">
-                  <img className="program-photo" src="/manus-storage/mathildewod-vip-scene_4dcc034b.jpg" alt="Session de stratégie dédiée à une entrepreneuse" />
+                  <img className="program-photo" src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/mathildewod-vip-scene_4dcc034b.jpg" alt="Session de stratégie dédiée à une entrepreneuse" />
                   <div className="program-inner"><span className="program-type">Business établi</span><h3 className="program-title display">Success<br /><em>Story</em> VIP</h3><p className="program-copy">Ton offre est claire, tes clientes sont là. Nous créons maintenant une stratégie de communication unique et magnétique.</p><a className="program-link" href="/success-story-vip">Voir la page dédiée <span>→</span></a></div>
                 </article>
               </div>
@@ -116,8 +116,8 @@ export default function Home() {
           <div className="container-wide">
             <div className="reference-results-head"><div><p className="eyebrow">Avant / Après</p><h2 className="section-title display" id="resultats-title">Des comptes qui ont <span className="script">décollé.</span></h2></div><a className="reference-results-link" href="https://www.instagram.com/mathildewod/" target="_blank" rel="noreferrer">Voir tous les résultats <ArrowUpRight size={15} /></a></div>
             <div className="result-grid">
-              <Result handle="@laulaupoussedelafonte" field="Sport & perte de gras" multiple="×21" before="/manus-storage/ba-laulau-avant_5baf79db.png" after="/manus-storage/ba-laulau-apres_4e151c07.png" beforeCount="2 982" afterCount="62,4k" />
-              <Result handle="@laurianne_hrl" field="Voyage & lifestyle" multiple="×79" before="/manus-storage/ba-laurianne-avant_4ddeb513.png" after="/manus-storage/ba-laurianne-apres_dc36ee0a.png" beforeCount="1 514" afterCount="119k" />
+              <Result handle="@laulaupoussedelafonte" field="Sport & perte de gras" multiple="×21" before="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/ba-laulau-avant_5baf79db.png" after="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/ba-laulau-apres_4e151c07.png" beforeCount="2 982" afterCount="62,4k" />
+              <Result handle="@laurianne_hrl" field="Voyage & lifestyle" multiple="×79" before="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/ba-laurianne-avant_4ddeb513.png" after="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/ba-laurianne-apres_dc36ee0a.png" beforeCount="1 514" afterCount="119k" />
             </div>
           </div>
         </section>
@@ -127,8 +127,8 @@ export default function Home() {
           <div className="container-wide testimonial-layout">
             <div><p className="eyebrow">La communauté</p><h2 className="section-title display" id="temoignages-title">Elles racontent le <span className="script">déclic.</span></h2><p className="testimonial-intro">Deux retours en vidéo, pris dans les contenus fournis. Des histoires partagées par les personnes concernées, sans citation réécrite ni promesse embellie.</p></div>
             <div className="video-grid">
-              <article className="video-card"><video controls preload="metadata" src="/manus-storage/temoignage-elsacoachyoga_aa545ae7.mp4" aria-label="Témoignage vidéo Elsa Coach Yoga" /><div className="video-meta"><strong>Elsa Coach Yoga</strong><span><Play size={10} fill="currentColor" /> Témoignage</span></div></article>
-              <article className="video-card"><video controls preload="metadata" src="/manus-storage/temoignage-ninadiet_ab6b6f90.mp4" aria-label="Témoignage vidéo Nina Diet" /><div className="video-meta"><strong>Nina Diet</strong><span><Play size={10} fill="currentColor" /> Témoignage</span></div></article>
+              <article className="video-card"><video controls preload="metadata" src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/temoignage-elsacoachyoga_aa545ae7.mp4" aria-label="Témoignage vidéo Elsa Coach Yoga" /><div className="video-meta"><strong>Elsa Coach Yoga</strong><span><Play size={10} fill="currentColor" /> Témoignage</span></div></article>
+              <article className="video-card"><video controls preload="metadata" src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/temoignage-ninadiet_ab6b6f90.mp4" aria-label="Témoignage vidéo Nina Diet" /><div className="video-meta"><strong>Nina Diet</strong><span><Play size={10} fill="currentColor" /> Témoignage</span></div></article>
             </div>
           </div>
         </section>
@@ -138,7 +138,7 @@ export default function Home() {
         <section className="resource" aria-labelledby="resource-title">
           <SectionRail number="06" light />
           <div className="container-wide resource-grid">
-            <div className="resource-cover"><img src="/manus-storage/cahier-ete-sgb_e373c8a9.png" alt="Couverture du Cahier d’été SGB" /></div>
+            <div className="resource-cover"><img src="https://raw.githubusercontent.com/essidyoussef-source/mathildewod/main/client/public/manus-storage/cahier-ete-sgb_e373c8a9.png" alt="Couverture du Cahier d’été SGB" /></div>
             <div><p className="eyebrow light">Ressource offerte — Strong Girl Boss</p><h2 className="resource-title display" id="resource-title">Le Cahier d’été <span className="script">SGB.</span></h2><p className="resource-copy">Pour attirer des clientes sans forcer à la rentrée. Un cahier d’exercices concis pour clarifier ton positionnement, ton offre et tes contenus de septembre.</p><a className="button-dark resource-download" href={CAHIER_URL} target="_blank" rel="noreferrer">Recevoir le cahier <ArrowRight size={14} /></a><p className="resource-note">Tu seras redirigée vers la page d’inscription officielle.</p></div>
           </div>
         </section>
