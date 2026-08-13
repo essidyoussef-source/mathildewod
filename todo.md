@@ -107,6 +107,6 @@
 
 ## Synchronisation GitHub
 
-- [ ] Identifier le dépôt GitHub associé à MathildeWod et vérifier la branche cible.
-- [ ] Synchroniser la version courante du projet avec un commit descriptif.
-- [ ] Confirmer le hash et l’URL de la synchronisation au dépôt.
+- [x] Identifier le dépôt GitHub associé à MathildeWod et vérifier la branche cible.
+- [x] Synchroniser la version courante du projet avec un commit descriptif.
+- [x] Confirmer le hash et l’URL de la synchronisation au dépôt.
