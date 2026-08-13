@@ -139,6 +139,12 @@
 
 ## Logo Visionher sur Vercel
 
-- [ ] Ajouter le logo Visionher aux assets publics inclus dans le build Vercel.
-- [ ] Mettre à jour la porte Visionher pour utiliser le chemin public de production.
-- [ ] Synchroniser et vérifier le nouveau déploiement Vercel.
+- [x] Ajouter le logo Visionher aux assets publics inclus dans le build Vercel.
+- [x] Mettre à jour la porte Visionher pour utiliser le chemin public de production.
+- [x] Synchroniser et vérifier le nouveau déploiement Vercel.
+
+## Favicon et contrôle final Vercel
+
+- [ ] Identifier le favicon MathildeWod utilisé par la maquette.
+- [ ] Ajouter le favicon aux assets publics et le référencer dans le document HTML.
+- [ ] Synchroniser le favicon et confirmer le déploiement Vercel à jour.

@@ -95,3 +95,7 @@ Le projet Vercel `mathildewod` possède un déploiement de production en état `
 ## Correctif de sortie Vercel
 
 La capture utilisateur montrait que Vercel servait le contenu de `server/index.ts`. Le projet inclut maintenant une configuration `vercel.json` qui lance exclusivement `pnpm run build:vercel`, publie `dist/public` et réécrit les routes SPA vers `index.html`. Le déploiement de production du commit `6fcc61d` est en état `READY` ; ses journaux confirment l’exécution de `vite build` et l’écriture de `dist/public/index.html`.
+
+## Logo Visionher en production
+
+Le logo Visionher a été déplacé vers `client/public/visionher-logo.png` et la porte de confidentialité charge désormais ce chemin public. Le build Vite confirme que le fichier est copié dans `dist/public/visionher-logo.png`. Le déploiement Vercel du commit `026a28c` est en état `READY` et contient donc l’asset public.
